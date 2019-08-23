@@ -1,0 +1,208 @@
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.contenedor{
+    margin-bottom: 200px;
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+   
+}
+
+p{
+    font-size: 18px;
+}
+
+.a{
+    font-weight: normal;
+    color: #000000;
+    font-size: 60px;
+}
+
+.b{
+    color: #000000;
+}
+.c{
+    border: 3px solid #212529;
+    font-size: 22px;
+    color: #000000;
+    float: left;
+    
+}
+
+.d{
+    border: 3px solid #212529;
+    font-size: 22px;
+    color: #000000;
+    float: right;
+    
+}
+#about .contenedor{
+    margin-bottom: 100px;
+}
+#about .contenido{
+    display: flex;
+    justify-content: space-around;
+}
+
+#about h2{
+    margin-top: 33px;
+    text-align: center;
+    font-size: 53px;
+    font-weight: normal;
+}
+
+#about img{
+    width: 300px;
+    height: 340px;
+    
+}
+#about .about-text{
+    margin-top: 30px;
+    width: 40%;
+    font-size: 15px;
+}
+
+#tecnology .contenedor{
+    margin-bottom: 100px;
+}
+#tecnology .contenido{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#tecnology  img{
+ width: 21px;
+ height: 30px;
+}
+
+
+
+#tecnology h2{
+    margin-top: 22px;
+    text-align: center;
+    font-size: 53px;
+    font-weight: normal;
+}
+
+#tecnology .item{
+    width: 45%;
+}
+
+.item p{
+    padding-top: 30px;
+}
+
+#studies h2{
+    margin-top: 22px;
+    text-align: center;
+    font-size: 53px;
+    font-weight: normal;
+}
+
+
+
+
+
+footer{
+    background: #2e2e2e;
+    padding: 40px 0;
+    text-align: center;
+    
+}
+
+footer .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+    
+}
+
+footer .redes{
+    display: flex;
+    margin: 0 auto;
+    
+
+}
+
+
+#w img{
+    position: fixed;
+    top: 81%;
+    right: 1%;
+    border-radius:150px; 
+}
+
+footer img{
+    margin: 0 40px;
+    transform: rotate(0);
+    transition:  .4s;
+    border-radius: 200px;
+}
+
+footer img:hover{
+    transform: rotate(360deg);
+    transition: .4s;
+}
+
+footer p{
+    color: #fff;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 800px ){
+
+    p{
+      font-size: 16px;
+    }
+    #about .contenido{
+        flex-direction: column;
+    }
+    #about img{
+        width: 200px;
+        height: 240px;
+        
+    }
+    #about h2{
+        font-size: 40px;
+    }
+    #about #profile{
+        margin:auto;
+    }
+
+    #about .about-text{
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    #tecnology .contenido{
+        flex-direction: column;
+    }
+    #tecnology h2{
+        font-size: 40px;
+    }
+
+    #tecnology .item{
+        width: 100%;
+    }
+
+    #studies h2{
+        font-size: 40px;
+    }
+
+
+
+    footer img{
+        margin: 0 15px;
+        transform: rotate(0);
+        transition:  .4s;
+        border-radius: 200px;
+    }
+}
